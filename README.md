@@ -1,7 +1,7 @@
 # ruby_bashrockets.vim
 
 This gives you Vim commands to convert Ruby hashes from the older hashrocket
-notation to the newer ':' notation and back.
+notation to the newer key-value notation, and back.
 
 ## Synopsis
 
