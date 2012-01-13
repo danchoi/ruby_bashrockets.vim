@@ -51,5 +51,5 @@ function! s:bashrockets() range
     let lnum += 1
   endwhile
 endfunction
-command! -range Bashrockets call s:bashrockets()
-command! -range Hashrockets call s:hashrockets()
+command! -range Bashrockets :<line1>,<line2>call s:bashrockets()
+command! -range Hashrockets :<line1>,<line2>call s:hashrockets()
