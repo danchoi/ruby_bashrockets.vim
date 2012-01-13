@@ -37,8 +37,7 @@
 function! s:hashrockets() range
   let lnum = a:firstline
   while lnum <= a:lastline
-    let line = getline(lnum)
-    let newline = substitute(getline('.'), '\(\w\+\):', ':\1 =>', 'g')
+    let newline = substitute(getline(lnum), '\(\w\+\):', ':\1 =>', 'g')
     call setline(lnum, newline)
     let lnum += 1
   endwhile
@@ -47,8 +46,7 @@ endfunction
 function! s:bashrockets() range
   let lnum = a:firstline
   while lnum <= a:lastline
-    let line = getline(lnum)
-    let newline = substitute(getline('.'), ':\(\w\+\)\s*=>', '\1:', 'g')
+    let newline = substitute(getline(lnum), ':\(\w\+\)\s*=>', '\1:', 'g')
     call setline(lnum, newline)
     let lnum += 1
   endwhile
