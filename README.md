@@ -9,7 +9,7 @@ notation to the newer key-value notation, and back.
     :Hashrockets   {foo: 'bar', boston: 'rocks'}        ==>   {:foo => 'bar', :boston => 'rocks'}
 
 You can select a range before entering these commands. They will apply the 
-conversion to all the text in the range.
+conversion to all the text in the range. Otherwise, the command is applied to the current line.
 
 You can also type the first few characters of either command and try to let 
 Vim tab-autocomplete it.
