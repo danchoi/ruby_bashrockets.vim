@@ -29,4 +29,6 @@ library or just install vim-ruby.
 
 [vim-ruby]:https://github.com/vim-ruby/vim-ruby/tree/master/ftdetect
 
+## Author
 
+Daniel Choi http://github.com/danchoi
