@@ -20,7 +20,7 @@ Copy ftplugin/ruby_bashrockets.vim to ~/.vim/ftplugin/
 
 Quick install:
 
-    curl https://raw.github.com/danchoi/ruby_bashrockets.vim/master/ftplugin/ruby_bashrockets.vim > ~/.vim/ftplugin/ruby_bashrockets.vim
+    curl -L https://raw.github.com/danchoi/ruby_bashrockets.vim/master/ftplugin/ruby_bashrockets.vim > ~/.vim/ftplugin/ruby_bashrockets.vim
 
 Make sure your .vimrc has these lines:
 
